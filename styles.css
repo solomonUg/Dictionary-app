@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 33, 231);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    background-color: rgba(255, 255, 255, .3);
+    padding: 30px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+    max-width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+.input {
+height: 50px;
+width: 300px;
+background-color: rgba(255, 255, 255, .8);
+border: 0;
+border-radius: 10px;
+font-size: 16px;
+}
+
+.answer-box {
+    display: none;
+}
